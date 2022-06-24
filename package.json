@@ -3,20 +3,20 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://zeddjke.github.io/human-chat",
+  "homepage": "https://zeddjke.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /human-chat/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeddjke/human-chat"
+    "url": "git+https://github.com/zeddjke/goit-js-hw-08"
   },
   "keywords": [],
   "author": "Oleksii Kikot <oleksii.kikot@yahoo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zeddjke/human-chat/issues"
+    "url": "https://github.com/zeddjke/goit-js-hw-08/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
