@@ -1,8 +1,3 @@
-// const dotenvParseVariables = require('dotenv-parse-variables');
-
-// const env = dotenvParseVariables(process.env);
-// console.log(env);
-
 import { authWithPopup, onClickSignOut, pushData } from './service';
 import { uploadUserFile } from './service/storage-api';
 import {
