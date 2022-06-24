@@ -1,0 +1,56 @@
+{
+  "name": "parcel-project-template",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://zeddjke.github.io/human-chat",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /human-chat/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeddjke/human-chat"
+  },
+  "keywords": [],
+  "author": "Oleksii Kikot <oleksii.kikot@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeddjke/human-chat/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-custom-dist-structure": "^1.1.18",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.16.4",
+    "dotenv": "^16.0.0",
+    "dotenv-parse-variables": "^2.0.0",
+    "firebase": "^9.6.11",
+    "lodash.throttle": "^4.1.1"
+  },
+  "customDistStructure": {
+    "config": {
+      ".js": "js",
+      ".js.map": "js",
+      ".css": "css",
+      ".css.map": "css",
+      "images": [
+        ".jpg",
+        ".png"
+      ],
+      ".fileExtension": "folder/in/dist",
+      "folder/in/dist": [
+        ".file",
+        ".extensions"
+      ]
+    },
+    "options": {
+      "development": true
+    }
+  }
+}
