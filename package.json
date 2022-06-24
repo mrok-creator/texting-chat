@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://zeddjke.github.io/goit-js-hw-08",
+  "homepage": "https://zeddjke.github.io/texting-chat",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /texting-chat/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeddjke/goit-js-hw-08"
+    "url": "git+https://github.com/mrok-creator/texting-chat"
   },
   "keywords": [],
   "author": "Oleksii Kikot <oleksii.kikot@yahoo.com>",
